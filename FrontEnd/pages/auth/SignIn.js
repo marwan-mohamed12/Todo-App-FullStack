@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import Spinner from "react-native-loading-spinner-overlay";
 import { useToast } from "react-native-toast-notifications";
+import { FontAwesome } from "@expo/vector-icons";
 
 import { logIn } from "./authRequests";
 
@@ -52,7 +53,13 @@ const SignIn = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Sign In</Text>
+            <FontAwesome
+                style={styles.icon}
+                name="user-circle-o"
+                size={120}
+                color="#2196F3"
+            />
+            {/* <Text style={styles.title}>Sign In</Text> */}
 
             <TextInput
                 style={styles.input}
@@ -88,6 +95,9 @@ const SignIn = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+    icon: {
+        marginBottom: 30,
+    },
     container: {
         flex: 1,
         backgroundColor: "#fff",

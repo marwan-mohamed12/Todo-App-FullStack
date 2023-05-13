@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import { register } from "./authRequests";
 import Spinner from "react-native-loading-spinner-overlay";
+import { FontAwesome } from "@expo/vector-icons";
 
 const SignUp = ({ navigation }) => {
     const [email, setEmail] = useState("");
@@ -39,7 +40,13 @@ const SignUp = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Sign Up</Text>
+            <FontAwesome
+                style={styles.icon}
+                name="user-circle-o"
+                size={120}
+                color="#2196F3"
+            />
+            {/* <Text style={styles.title}>Sign Up</Text> */}
 
             <TextInput
                 style={styles.input}
@@ -82,6 +89,9 @@ const SignUp = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+    icon: {
+        marginBottom: 30,
+    },
     container: {
         flex: 1,
         backgroundColor: "#fff",
