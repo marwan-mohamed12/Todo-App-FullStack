@@ -27,3 +27,10 @@ node app.js
 ```
 npm run android
 ```
+
+## Features
+
+1. SignUp 
+2. SignIn
+3. Authentication and Authorization
+4. Todo Management: Once logged in, users can view, add, edit, and delete their todos. 
