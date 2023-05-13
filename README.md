@@ -12,6 +12,9 @@ git clone https://github.com/marwan-mohamed12/Todo-App-FullStack.git
 npm install
 ```
 3. Rename the .env.example file to .env and update the DATABASE_URL value with your postgreSQL connection string.
+```
+DATABASE_URL = "Put your URL here"
+```
 4. Navigate to the Prisma directory and migrate the prisma:
 ```
 npx prisma migrate dev
