@@ -10,6 +10,7 @@ git clone https://github.com/marwan-mohamed12/Todo-App-FullStack.git
 2. Navigate to the FrontEnd, BackEnd and install the dependencies:
 ```
 npm install
+or you can just double click the start.sh script and it will install the dependencies for you
 ```
 3. Rename the .env.example file to .env and update the DATABASE_URL value with your postgreSQL connection string.
 ```
