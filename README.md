@@ -36,7 +36,7 @@ npm run android
 3. Authentication and Authorization
 4. Todo Management: Once logged in, users can view, add, edit, and delete their todos. 
 
-Technologies
+## Technologies
 
 1. React Native
 2. Express.js
