@@ -3,6 +3,7 @@
 This is a simple Todo App that allows users to sign up and sign in to manage their todo list. The app is built with React Native, Node.js, Express.js, prisma and PostgreSQL.
 
 ![My Image](Todo-FullStack.gif)
+![My Image](Todo.gif)
 
 ## Installation
 1. Clone this repository to your local machine using the following command:
